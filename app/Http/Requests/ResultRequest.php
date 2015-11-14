@@ -24,8 +24,8 @@ class ResultRequest extends Request
     public function rules()
     {
         return [
-            'roll_no' => 'integer',
-            'year' => "in:1,2,3,4,5",
+            'roll_no' => 'required|integer',
+            'year' => "required|in:1,2,3,4,5",
             'major' => "in:cs,ct",
             'external' => "in:on"
         ];

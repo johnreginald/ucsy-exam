@@ -12,6 +12,9 @@ use App\Http\Requests\ResultRequest;
 
 class ResultController extends Controller
 {
+    public function home() {
+	return view('home');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -19,25 +22,20 @@ class ResultController extends Controller
      */
     public function index(ResultRequest $request)
     {
-        if($request->external == "on") {
-
+        if($request->external) {
             $data = Result::search($request)->external()->get();            
-            return view('message', compact('data'));
-
-        } else {
-           
-            $data = Result::search($request)->get();
-            return view('message', compact('data'));            
-
+        } else {        
+            $data = Result::search($request)->where('external', 0)->get();          
         }
+
+        return view('message', compact('data'));  
     }
 
     public function term() {
         return view('term');
     }
 
-    public function api(){
-	return response()->json(Result::all());
+    public function api() {
+        return response()->json(Result::all());
     }
-
 }

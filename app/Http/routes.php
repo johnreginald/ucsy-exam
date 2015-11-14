@@ -16,6 +16,4 @@ Route::get('api', 'ResultController@api');
 
 Route::get('term', "ResultController@term");
 
-Route::get('/', function(){
-	return view('home');
-});
+Route::get('/', 'ResultController@home');

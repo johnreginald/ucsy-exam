@@ -1,0 +1,22 @@
+{
+  "name": "ucsy",
+  "version": "0.0.0",
+  "authors": [
+    "John Reginald <johnthelinux@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

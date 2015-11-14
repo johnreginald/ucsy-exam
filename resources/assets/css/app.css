@@ -1,0 +1,222 @@
+html, body {
+	font-smoothing: antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	background: url('../img/bg2.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+/* ===== Padding Components ===== */
+.p10 {
+	padding: 10px;
+}
+.pt10 {
+	padding-top: 10px;
+}
+.pb10 {
+	padding-bottom: 10px;
+}
+
+.p20 {
+	padding: 20px;
+}
+.pt20 {
+	padding-top: 20px;
+}
+.pb20 {
+	padding-bottom: 20px;
+}
+
+.p30 {
+	padding: 30px;
+}
+.pt30 {
+	padding-top: 30px;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+
+.p50 {
+	padding: 50px;
+}
+.pt50 {
+	padding-top: 50px;
+}
+.pb50 {
+	padding-bottom: 50px;
+}
+
+/* ===== Margin Components ===== */
+.m10 {
+	margin: 10px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.m20 {
+	margin: 20px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.m30 {
+	margin: 30px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.m50 {
+	margin: 50px;
+}
+.mt50 {
+	margin-top: 50px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+
+/* ===== Text Enhancement and Typography ===== */
+
+/* Text Size */
+.size72 {
+	font-size: 72px;
+}
+.size65 {
+	font-size: 65px;
+}
+.size58 {
+	font-size: 58px;
+}
+.size42 {
+	font-size: 42px;
+}
+.size36 {
+	font-size: 36px;
+}
+.size28 {
+	font-size: 28px;
+}
+.size25 {
+	font-size: 25px;
+}
+.size22 {
+	font-size: 22px;
+}
+.size20 {
+	font-size: 20px;
+}
+.size18 {
+	font-size: 18px;
+}
+.size16 {
+	font-size: 16px;
+}
+.size15 {
+	font-size: 15px;
+}
+.size14 {
+	font-size: 14px;
+}
+.size12 {
+	font-size: 12px;
+}
+
+/* Font Weight */
+.wbold {
+	font-weight: bold;
+}
+.wnormal {
+	font-weight: normal;
+}
+.wthin {
+	font-weight: lighter;
+}
+.w400 {
+	font-weight: 400;
+}
+.w300 {
+	font-weight: 300;
+}
+.w100 {
+	font-weight: 100;
+}
+/* ===== Text Color ===== */
+
+.tgreen {
+	color: green;
+}
+.twhite {
+	color: white;
+}
+.bg {
+	background: rgba(192, 192, 192, 0.26) none repeat scroll 0% 0%;
+}
+.shadow {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Font Family */
+.roboto {
+	font-family: "Roboto", sans-serif !important;
+}
+.lato {
+	font-family: "Lato", sans-serif !important;
+}
+.fira {
+	font-family: "Fira Sans", sans-serif !important;
+}
+.comfortaa {
+	font-family: 'Comfortaa', cursive;
+}
+.dosis {
+	font-family: 'Dosis', sans-serif;	
+}
+.julius {
+	font-family: 'Julius Sans One', sans-serif;
+}
+.ncycle {
+	font-family: 'News Cycle', sans-serif;
+}
+.orbitron {
+	font-family: 'Orbitron', sans-serif;
+}
+.poiret {
+	font-family: 'Poiret One', cursive;
+}
+.quicksand {
+	font-family: 'Quicksand', sans-serif;
+}
+.raj {
+	font-family: 'Rajdhani', sans-serif;
+}
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+.ptsan {
+	font-family: 'PT Sans', sans-serif;
+}
+.offside {
+	font-family: 'Offside', cursive;
+}
+.term {
+	background: rgba(0, 0, 0, 0.61);
+	border-radius: 5px;
+}

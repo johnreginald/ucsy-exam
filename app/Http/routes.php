@@ -12,6 +12,8 @@
 */
 Route::post('result', 'ResultController@index');
 
+Route::get('api', 'ResultController@api');
+
 Route::get('term', "ResultController@term");
 
 Route::get('/', function(){

@@ -19,7 +19,7 @@ class ResultController extends Controller
      */
     public function index(ResultRequest $request)
     {
-        if($request->external) {
+        if($request->external == "on") {
 
             $data = Result::search($request)->external()->get();            
             return view('message', compact('data'));
@@ -34,6 +34,10 @@ class ResultController extends Controller
 
     public function term() {
         return view('term');
+    }
+
+    public function api(){
+	return response()->json(Result::all());
     }
 
 }

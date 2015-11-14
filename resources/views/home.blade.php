@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')	
-<div class="container mt20 mb20">
+<div class="container mt10 mb10">
 	<div class="row">
 		<div class="text-center">			
 
